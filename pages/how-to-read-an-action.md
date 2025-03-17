@@ -2,15 +2,23 @@
 layout: center
 ---
 
-#### How to read an action?
+# How to write your first action?
 
 ---
-layout: two-cols
+layout: center
 ---
 
-#### All starts with a `action.yml` file
+## It all starts with a `action.yml` file
 
-```yaml {*|15-20}
+---
+layout: two-cols-enhanced
+---
+
+::left::
+
+# `action.yml`
+
+```yaml {*|1-3|5-9|11-13|15-20}{lines: true}
 name: Some Action
 description: A description of the action
 author: Author Name
@@ -32,3 +40,30 @@ runs:
     - arg1
     - arg2
 ```
+
+::right::
+
+# Workflow
+
+````md magic-move {at: 1, lines: true}
+
+```yaml
+name: Test
+on:
+  push:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'pnpm'
+```
+````

@@ -50,7 +50,15 @@ class: text-white
 <Pagination classNames="text-gray-300" />
 
 ---
+src: ./pages/goals.md
+---
+
+---
 src: ./pages/github-actions.md
+---
+
+---
+src: ./pages/gitea-actions.md
 ---
 
 ---
