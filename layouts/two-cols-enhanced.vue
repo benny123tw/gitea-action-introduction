@@ -10,10 +10,9 @@ const props = defineProps({
 </script>
 
 <template>
-  <slot name="header" />
   <div class="slidev-layout two-columns w-full h-full grid grid-cols-2 items-start gap-4">
     <div class="col-left" :class="props.class">
-      <slot name="left" />
+      <slot />
     </div>
     <div class="col-right" :class="props.class">
       <slot name="right" />

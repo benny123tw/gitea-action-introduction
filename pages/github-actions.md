@@ -13,7 +13,7 @@ transition: slide-left
 layout: image
 ---
 
-![GitHub Actions](../public/github-action.webp)
+![GitHub Actions](/github-action.webp)
 
 ---
 layout: center
@@ -43,7 +43,7 @@ The way we test GitHub Actions locally is very similar to how Gitea Actions work
 
 ---
 layout: figure
-figureCaption: "Screenshot from gitea/act"
+figureCaption: "Screenshot of gitea/act"
 figureUrl: /gitea-action.png
 ---
 

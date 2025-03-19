@@ -102,8 +102,3 @@ jobs:
         uses: actions/deploy-pages@v4
 ```
 ````
-
----
-layout: image-left
-image: assets/images/github-actions-logo.png
----

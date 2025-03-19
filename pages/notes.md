@@ -3,6 +3,7 @@
 * https://blog.gitea.com/creating-go-actions/
 * https://blog.gitea.com/hacking-on-gitea-actions/
 * https://docs.gitea.com/usage/actions/comparison
+* https://docs.github.com/en/actions/sharing-automations/creating-actions/metadata-syntax-for-github-actions
 
 ## Differences
 

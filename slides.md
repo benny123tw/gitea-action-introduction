@@ -62,5 +62,5 @@ src: ./pages/gitea-actions.md
 ---
 
 ---
-src: ./pages/how-to-read-an-action.md
+src: ./pages/action-yaml.md
 ---
