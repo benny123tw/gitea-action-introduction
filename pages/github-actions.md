@@ -7,6 +7,7 @@ transition: slide-left
 
 <!--
   GitHub Actions is a CI/CD service that makes it easy to automate all your software workflows.
+  GitHub Actions was first announced in October 2018 at the GitHub Universe conference (beta release)​
 -->
 
 ---
@@ -15,12 +16,45 @@ layout: image
 
 ![GitHub Actions](/github-action.webp)
 
+<!--
+  In November 2019, GitHub Actions became generally available (GA)​, introducing matrix builds, live logs, and an ecosystem of shared actions.
+
+  By GA, over 1,200 community-created Actions were on the Marketplace​. GitHub also added features like self-hosted runners, artifact caching, and support for Linux, macOS, Windows, and ARM builds​.
+
+  [New from Universe 2019](https://github.blog/news-insights/product-news/universe-day-one/#:~:text=Today%2C%20we%E2%80%99re%20announcing%20the%20general,this%20list%20is%20growing%20fast)
+-->
+
+---
+layout: section
+---
+
+# How to Use GitHub Actions
+
+- Workflows are defined in `.github/workflows/*.yml`
+- YAML-based configuration
+- Event-driven automation
+- Example events:
+  - `push`
+  - `pull_request`
+  - `schedule`
+  - `workflow_dispatch`
+
+---
+layout: figure
+figureUrl: /github-action-workflow.png
+figureCaption: "Screenshot of mastra-ai"
+---
+
+# GitHub Actions Workflow
+
 ---
 layout: center
 ---
 
 # Run GitHub Actions locally
 https://github.com/nektos/act
+
+Testing workflows locally saves time and resources compared to pushing changes repeatedly.
 
 ---
 layout: full

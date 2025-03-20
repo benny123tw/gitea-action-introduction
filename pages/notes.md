@@ -4,6 +4,7 @@
 * https://blog.gitea.com/hacking-on-gitea-actions/
 * https://docs.gitea.com/usage/actions/comparison
 * https://docs.github.com/en/actions/sharing-automations/creating-actions/metadata-syntax-for-github-actions
+* https://nektosact.com/not_supported.html
 
 ## Differences
 

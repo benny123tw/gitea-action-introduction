@@ -180,8 +180,8 @@ try {
 
 ```yaml
 runs:
-  using: 'node16'
-  entrypoint: 'index.js'
+  using: 'node20'
+  main: 'index.js'
 ```
 
 More details: [Creating a JavaScript action](https://docs.github.com/en/actions/sharing-automations/creating-actions/creating-a-javascript-action)
