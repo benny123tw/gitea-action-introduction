@@ -9,7 +9,8 @@
   "scripts": {
     "build": "slidev build",
     "dev": "slidev",
-    "export": "slidev export"
+    "export": "slidev export",
+    "lint": "eslint . --fix"
   },
   "dependencies": {
     "@slidev/cli": "^51.4.0",

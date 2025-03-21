@@ -99,9 +99,9 @@ jobs:
         id: node
         with:
           node-version: '20'
-          cache: 'pnpm'
+          cache: pnpm
 
-      - run: echo "${{ steps.node.outputs.node-version }}" 
+      - run: echo "${{ steps.node.outputs.node-version }}"
 ```
 
 ---
@@ -147,8 +147,8 @@ ENTRYPOINT ["/entrypoint.sh"]
 
 ```yaml
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
+  using: docker
+  image: Dockerfile
 ```
 
 More details: [Creating a Docker container action](https://docs.github.com/en/actions/sharing-automations/creating-actions/creating-a-docker-container-action)
@@ -164,15 +164,16 @@ Example: [appleboy/jira-action](https://github.com/appleboy/jira-action)
 <code>index.js</code>
 
 ```js
-const core = require('@actions/core');
-const github = require('@actions/github');
+const core = require('@actions/core')
+const github = require('@actions/github')
 
 try {
   // `who-to-greet` input defined in action metadata file
-  const nameToGreet = core.getInput('who-to-greet');
-  core.info(`Hello ${nameToGreet}!`);
-} catch (error) {
-  core.setFailed(error.message);
+  const nameToGreet = core.getInput('who-to-greet')
+  core.info(`Hello ${nameToGreet}!`)
+}
+catch (error) {
+  core.setFailed(error.message)
 }
 ```
 
@@ -180,8 +181,8 @@ try {
 
 ```yaml
 runs:
-  using: 'node20'
-  main: 'index.js'
+  using: node20
+  main: index.js
 ```
 
 More details: [Creating a JavaScript action](https://docs.github.com/en/actions/sharing-automations/creating-actions/creating-a-javascript-action)
@@ -199,12 +200,12 @@ Example: [actions/checkout](https://github.com/actions/checkout)
 ```yaml
 inputs:
   who-to-greet:
-    description: 'Who to greet'
+    description: Who to greet
     required: true
-    default: 'World'
+    default: World
 
 runs:
-  using: 'composite'
+  using: composite
   steps:
     - name: Checkout
       uses: actions/checkout@v4
@@ -241,8 +242,8 @@ func main() {
 
 ```yaml
 runs:
-  using: 'go'
-  main: 'main.go'
+  using: go
+  main: main.go
 ```
 
 More details: [Creating a Go action](https://blog.gitea.com/creating-go-actions/)

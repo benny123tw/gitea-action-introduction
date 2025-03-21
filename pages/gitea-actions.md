@@ -18,7 +18,6 @@ layout: center
   <Footnote :number=1>Gitea's Actions are based on `nektos/act`, but with custom additions `gitea/act`. </Footnote>
 </Footnotes>
 
-
 <!--
 2023/03/20
 The nektos/act project is an excellent tool that allows you to run your GitHub Actions locally. We were inspired by this and wondered if it would be possible to run actions for Gitea.

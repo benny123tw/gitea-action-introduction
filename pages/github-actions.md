@@ -7,7 +7,7 @@ transition: slide-left
 
 <!--
   GitHub Actions is a CI/CD service that makes it easy to automate all your software workflows.
-  GitHub Actions was first announced in October 2018 at the GitHub Universe conference (beta release)​
+  GitHub Actions was first announced in October 2018 at the GitHub Universe conference (beta release)
 -->
 
 ---
@@ -17,9 +17,9 @@ layout: image
 ![GitHub Actions](/github-action.webp)
 
 <!--
-  In November 2019, GitHub Actions became generally available (GA)​, introducing matrix builds, live logs, and an ecosystem of shared actions.
+  In November 2019, GitHub Actions became generally available (GA), introducing matrix builds, live logs, and an ecosystem of shared actions.
 
-  By GA, over 1,200 community-created Actions were on the Marketplace​. GitHub also added features like self-hosted runners, artifact caching, and support for Linux, macOS, Windows, and ARM builds​.
+  By GA, over 1,200 community-created Actions were on the Marketplace. GitHub also added features like self-hosted runners, artifact caching, and support for Linux, macOS, Windows, and ARM builds​
 
   [New from Universe 2019](https://github.blog/news-insights/product-news/universe-day-one/#:~:text=Today%2C%20we%E2%80%99re%20announcing%20the%20general,this%20list%20is%20growing%20fast)
 -->
@@ -84,4 +84,3 @@ figureUrl: /gitea-action.png
 ---
 
 # Gitea Actions
-
