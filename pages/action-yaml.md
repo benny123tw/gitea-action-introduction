@@ -8,7 +8,7 @@ layout: center
 layout: center
 ---
 
-## It all starts with a `action.yml` file
+## It all starts with an `action.yml` file
 
 ---
 layout: two-cols-enhanced

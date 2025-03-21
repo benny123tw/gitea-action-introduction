@@ -26,6 +26,7 @@ layout: image
 
 ---
 layout: section
+transition: fade
 ---
 
 # How to Use GitHub Actions
@@ -69,6 +70,7 @@ layout: full
 
 ---
 layout: center
+transition: fade
 ---
 
 # Similar to Gitea Actions
